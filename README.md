@@ -10,7 +10,7 @@ Loading and exploring a housing dataset
 Cleaning and encoding categorical features
 Handling skewed data with log transformations
 Training a Linear Regression model
-Evaluating performance with RMSE and R²
+Evaluating performance with RMSE and R^2
 Interpreting model coefficients
 Saving the trained model for reuse
 Demonstrating example predictions
