@@ -38,12 +38,12 @@ Skew correction — price and area were right-skewed, so both were log-transform
 Train/test split — 80/20 split with a fixed random seed for reproducibility.
 Feature scaling — applied via StandardScaler to standardize inputs before training.
 Model training — a LinearRegression model was trained on the log-transformed target.
-Evaluation — predictions were converted back to real price units before calculating MAE, RMSE, and R².
+Evaluation — predictions were converted back to real price units before calculating MAE, RMSE, and R^2.
 Results
 Metric	Value
 MAE	~972,812
 RMSE	~1,317,370
-R²	~0.657
+R^2	~0.657
 
 The model explains roughly 66% of the variance in house prices, with an average prediction error of about 20% of the mean house price (~4,766,729).
 
